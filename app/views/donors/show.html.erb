@@ -1,0 +1,13 @@
+<h1>My Profile</h1>
+<p>Name: <%= @donor.name %></p>
+<p>Registered: <%= @donor.registered %></p>
+
+<h2>My Contributions</h2>
+
+<% @donor.contributions.each do |contribution| %>
+<p>
+  <%= image_tag contribution.politician.image, style:
+  'width:5%;border-radius:50%' %> <%= link_to contribution.politician.name,
+  politician_path(contribution.politician) %> - $<%= contribution.amount %>
+</p>
+<% end %>

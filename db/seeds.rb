@@ -21,19 +21,23 @@ Policy.create(name: 'Fracking')
 Policy.create(name: 'Gun Control')
 Policy.create(name: '2nd Ammendment Rights')
 Policy.create(name: 'Open them Borders!')
-Policy.create(name: "OMG, they're coming in!")
+Policy.create(name: "OMG, they're streaming in! Build wall now! maga")
 Policy.create(name: "Legalize it!")
-
-Politician.create(name: "Hillary 'Da Beast' Clinton", registered: "Democrat", office: "Secratary of State", bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis condimentum leo at ante ultrices, vitae malesuada augue rutrum. Morbi nunc tortor, dignissim non tempor sed, sodales et ex. In sit.")
-Politician.create(name: "Barack Obama", registered: "Democrat", office: "44th President", bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis condimentum leo at ante ultrices, vitae malesuada augue rutrum. Morbi nunc tortor, dignissim non tempor sed, sodales et ex. In sit.")
-Politician.create(name: "Donald Trump", registered: "Loser", office: "Brought to you from Russia", bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis condimentum leo at ante ultrices, vitae malesuada augue rutrum. Morbi nunc tortor, dignissim non tempor sed, sodales et ex. In sit.")
-Politician.create(name: "George 'Dubbya' Bush", registered: "Republican", office: "43rd President", bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis condimentum leo at ante ultrices, vitae malesuada augue rutrum. Morbi nunc tortor, dignissim non tempor sed, sodales et ex. In sit.")
-Politician.create(name: "Ross Perot", registered: "Independent", office: "Can I finish???", bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis condimentum leo at ante ultrices, vitae malesuada augue rutrum. Morbi nunc tortor, dignissim non tempor sed, sodales et ex. In sit.")
-Politician.create(name: "Dan Quail", registered: "Republican", office: "Destroyer of SpellingBees", bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis condimentum leo at ante ultrices, vitae malesuada augue rutrum. Morbi nunc tortor, dignissim non tempor sed, sodales et ex. In sit.")
-Politician.create(name: "Bill 'Big Daddy' Clinton", registered: "Democrat", office: "42nd President", bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis condimentum leo at ante ultrices, vitae malesuada augue rutrum. Morbi nunc tortor, dignissim non tempor sed, sodales et ex. In sit.")
-Politician.create(name: "Bernie 'Sex Machine' Sanders", registered: "Socialist", office: "", bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis condimentum leo at ante ultrices, vitae malesuada augue rutrum. Morbi nunc tortor, dignissim non tempor sed, sodales et ex. In sit.")
-Politician.create(name: "Elizabeth Warren", registered: "Democrat", office: "Senator", bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis condimentum leo at ante ultrices, vitae malesuada augue rutrum. Morbi nunc tortor, dignissim non tempor sed, sodales et ex. In sit.")
-Politician.create(name: "Mike Pence", registered: "Vice Loser", office: "Pray the Gay Awayer", bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis condimentum leo at ante ultrices, vitae malesuada augue rutrum. Morbi nunc tortor, dignissim non tempor sed, sodales et ex. In sit.")
+Policy.create(name: "No food for you")
+Policy.create(name: "I buy American President. Also, Ukraine is mine.")
+Policy.create(name: "Lower minimum wage")
+Policy.create(name: "You shall not have independent thought!")
+Politician.create(image: "hclinton.jpg", name: "Hillary 'Da Beast' Clinton", registered: "Democrat", office: "Secratary of State", bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis condimentum leo at ante ultrices, vitae malesuada augue rutrum. Morbi nunc tortor, dignissim non tempor sed, sodales et ex. In sit.")
+Politician.create(image: "obama.jpg", name: "Barack Obama", registered: "Democrat", office: "44th President", bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis condimentum leo at ante ultrices, vitae malesuada augue rutrum. Morbi nunc tortor, dignissim non tempor sed, sodales et ex. In sit.")
+Politician.create(image: "trump.jpg", name: "Donald Trump", registered: "Loser", office: "Brought to you from Russia", bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis condimentum leo at ante ultrices, vitae malesuada augue rutrum. Morbi nunc tortor, dignissim non tempor sed, sodales et ex. In sit.")
+Politician.create(image: "bush.jpg", name: "George 'Dubbya' Bush", registered: "Republican", office: "43rd President", bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis condimentum leo at ante ultrices, vitae malesuada augue rutrum. Morbi nunc tortor, dignissim non tempor sed, sodales et ex. In sit.")
+Politician.create(image: "putin.jpg", name: "Vlad Putin", registered: "Secret Soviet", office: "Trump's Daddy", bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis condimentum leo at ante ultrices, vitae malesuada augue rutrum. Morbi nunc tortor, dignissim non tempor sed, sodales et ex. In sit.")
+Politician.create(image: "kim.jpg", name: "Kim Jong Un", registered: "Supreme Leader", office: "First Chairman of the National Defense Commission of North Korea", bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis condimentum leo at ante ultrices, vitae malesuada augue rutrum. Morbi nunc tortor, dignissim non tempor sed, sodales et ex. In sit.")
+Politician.create(image: "bclinton.jpg", name: "Bill 'Big Daddy' Clinton", registered: "Democrat", office: "42nd President", bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis condimentum leo at ante ultrices, vitae malesuada augue rutrum. Morbi nunc tortor, dignissim non tempor sed, sodales et ex. In sit.")
+Politician.create(image: "bernie.jpg", name: "Bernie 'Sex Machine' Sanders", registered: "Socialist", office: "", bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis condimentum leo at ante ultrices, vitae malesuada augue rutrum. Morbi nunc tortor, dignissim non tempor sed, sodales et ex. In sit.")
+Politician.create(image: "warren.jpg", name: "Elizabeth Warren", registered: "Democrat", office: "Senator", bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis condimentum leo at ante ultrices, vitae malesuada augue rutrum. Morbi nunc tortor, dignissim non tempor sed, sodales et ex. In sit.")
+Politician.create(image: "pence.jpg", name: "Mike Pence", registered: "Vice Loser", office: "Pray the Gay Awayer", bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis condimentum leo at ante ultrices, vitae malesuada augue rutrum. Morbi nunc tortor, dignissim non tempor sed, sodales et ex. In sit.")
+Politician.create(image: "xi.jpeg", name: "Xi Ji Ping", registered: "Communist", office: "President of the People's Republic of China", bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis condimentum leo at ante ultrices, vitae malesuada augue rutrum. Morbi nunc tortor, dignissim non tempor sed, sodales et ex. In sit.")
 
 #@Hillary
 PoliticianPolicy.create(politician_id: 1, policy_id: 1)
@@ -57,15 +61,12 @@ PoliticianPolicy.create(politician_id: 4, policy_id: 4)
 PoliticianPolicy.create(politician_id: 4, policy_id: 6)
 PoliticianPolicy.create(politician_id: 4, policy_id: 10)
 
-#@Perot
-PoliticianPolicy.create(politician_id: 5, policy_id: 6)
-PoliticianPolicy.create(politician_id: 5, policy_id: 8)
-PoliticianPolicy.create(politician_id: 5, policy_id: 10)
+#@Putin
+PoliticianPolicy.create(politician_id: 5, policy_id: 13)
 
-#@Quail
-PoliticianPolicy.create(politician_id: 6, policy_id: 4)
-PoliticianPolicy.create(politician_id: 6, policy_id: 6)
-PoliticianPolicy.create(politician_id: 6, policy_id: 8)
+#@Kim Jong Un
+PoliticianPolicy.create(politician_id: 6, policy_id: 12)
+PoliticianPolicy.create(politician_id: 6, policy_id: 15)
 
 #@BClinton
 PoliticianPolicy.create(politician_id: 7, policy_id: 2)
@@ -90,6 +91,10 @@ PoliticianPolicy.create(politician_id: 10, policy_id: 3)
 PoliticianPolicy.create(politician_id: 10, policy_id: 5)
 PoliticianPolicy.create(politician_id: 10, policy_id: 7)
 PoliticianPolicy.create(politician_id: 10, policy_id: 10)
+
+#@Xi Ji Ping
+PoliticianPolicy.create(politician_id: 11, policy_id: 14)
+PoliticianPolicy.create(politician_id: 11, policy_id: 15)
 
 #Donors
 100.times do

@@ -1,11 +1,11 @@
+<%= image_tag @politician.image, style: 'width:50%' %>
 <h1><%= @politician.name %></h1>
 
 <ul>
-  <li><%= @politician.registered %></li>
-  <li><%= @politician.office %></li>
-  <li><%= @politician.bio %></li>
+  <li>Political Affiliation: <%= @politician.registered %></li>
+  <li>Title: <%= @politician.office %></li>
+  <li>Biography: <%= @politician.bio %></li>
 </ul>
-
 <h2>Causes</h2>
 
 <ul>
