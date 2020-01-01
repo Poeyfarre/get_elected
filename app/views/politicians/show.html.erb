@@ -1,0 +1,21 @@
+<h1><%= @politician.name %></h1>
+
+<ul>
+  <li><%= @politician.registered %></li>
+  <li><%= @politician.office %></li>
+  <li><%= @politician.bio %></li>
+</ul>
+
+<h2>Causes</h2>
+
+<ul>
+  <% @politician.policies.each do |policy| %>
+  <li><%= policy.name %></li>
+  <p>
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium
+    reprehenderit ullam illo aperiam tempora quaerat.
+  </p>
+  <% end %>
+</ul>
+
+<h2>Contributions: $<%= @politician.sum %></h2>

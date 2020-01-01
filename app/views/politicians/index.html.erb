@@ -1,0 +1,6 @@
+<h1>Politicians</h1>
+<ul>
+  <% @politicians.each do |crook| %>
+  <li><%=link_to crook.name, politician_path(crook)%></li>
+  <%end%>
+</ul>
